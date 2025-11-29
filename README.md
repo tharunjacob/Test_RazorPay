@@ -21,8 +21,8 @@ This contains everything you need to run your app locally and deploy to Vercel.
 2. Connect your repository to Vercel
 3. Vercel will automatically detect the Vite configuration and deploy
 
-**Note:** Make sure to configure in Vercel dashboard:
-- Framework Preset: **Other** or **Vite**
+**Configuration:**
+- Framework Preset: **Vite** (auto-detected)
 - Build Command: `npm run build`
 - Output Directory: `dist`
 
