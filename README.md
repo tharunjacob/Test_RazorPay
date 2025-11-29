@@ -21,6 +21,11 @@ This contains everything you need to run your app locally and deploy to Vercel.
 2. Connect your repository to Vercel
 3. Vercel will automatically detect the Vite configuration and deploy
 
+**Note:** Make sure to configure in Vercel dashboard:
+- Framework Preset: **Other** or **Vite**
+- Build Command: `npm run build`
+- Output Directory: `dist`
+
 ## Built with AI Studio
 
 The fastest path from prompt to production with Gemini.
